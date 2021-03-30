@@ -1,11 +1,11 @@
 addEventListener('fetch', (event) => {
-  const html = `<html>
+  const html: string = `<html>
     <head>
       <title>Hello, world! by KITERETZ inc. from Deno Deploy</title>
     </head>
     <body>
-      Hello, world!<br>
-      by <a href="https://kiteretz.com/about/">KITERETZ inc.</a>
+      <h1>Hello, world!</h1>
+      <p>by <a href="https://kiteretz.com/about/">KITERETZ inc.</a></p>
     </body>
   </html>`;
   
